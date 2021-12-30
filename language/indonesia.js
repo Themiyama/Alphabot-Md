@@ -1,16 +1,16 @@
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ පොම්ඩක් ඉන්න~`
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ ඔන්න හරි~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ error එකක් බන්`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link එක චෙක් කරල බලාන්`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
@@ -28,11 +28,11 @@ exports.emptyMess = () => {
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Command *${cmd}* වැරදි cmd එකක් *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner!`
+    return `❎ මේක මට විතරයි ඔයාලට බෑ!`
 }
 
 exports.doneOwner = () => {
@@ -66,7 +66,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `මම මෙතන ඇඩ්මින් නෙමෙයි`
 }
 
 exports.received = (pushname) => {
@@ -95,29 +95,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}donate
 
 
-╭─❒ 「 Owner 」 
-├ < evaluate
-├ > evaluate
-├ $ exec
-├ => exec
-├ ${prefix}join [link]
-├ ${prefix}self
-├ ${prefix}public [only bot]
-├ ${prefix}del [pesan bot]
-╰❒ ${prefix}setppbot [reply image]
-
-╭─❒ 「 Group 」 
-├ ${prefix}revoke
-├ ${prefix}leave
-├ ${prefix}add [62***]
-├ ${prefix}kick @tag
-├ ${prefix}revoke
-├ ${prefix}leave
-├ ${prefix}linkgc
-├ ${prefix}group [open/close]
-├ ${prefix}tagall [text]
-╰❒ ${prefix}hidetag [text]
-
 ╭─❒ 「 Anime 」 
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
@@ -142,7 +119,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒${prefix}toimg [reply sticker]
 
 
-╭─❒ 「 Image Effect 」 
+╭─❒ 「 රූප Effects 」 
 ├ ${prefix}wanted [reply image]
 ├ ${prefix}utatoo [reply image]
 ├ ${prefix}unsharpen [reply image]
@@ -205,7 +182,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}tiktokaudio [link]
 ├ ${prefix}ytdl [link]
 ├ ${prefix}play [query]
-├ ${prefix}ytmp3 [link]
+├ ${prefix}yt [link]
 ├ ${prefix}ytmp4 [link]
 ├ ${prefix}facebook [link]
 ├ ${prefix}facebooksd [link]
@@ -254,18 +231,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}cringe
 
 
-╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Penyedia Module
-╰❒ And All Support
+By Themiya madushanka
 
     `
 }
@@ -308,16 +274,13 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`වෙල්කම් අපේ group එකට🤗
 	
-📛 𝖭𝖺𝗆𝖺 :
-🔞 𝖴𝗆𝗎𝗋 :
-🧑 𝖦𝖾𝗇𝖽𝖾𝗋 :
-🏙️ 𝖠𝗌𝗄𝗈𝗍 :
-╰ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+
+╰ අපේ නිති පිලිපදින්න ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`යන උන් යන්න බායි >.<
 Goodbye`
 }
 exports.source = () =>{
