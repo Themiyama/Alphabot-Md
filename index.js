@@ -274,13 +274,13 @@ reply('invalid type, please contact the owner bot')
             case 'public': {
                 if (!m.key.fromMe && !isCreator) throw mess.owner
                 alpha.public = true
-                reply('Sukses Ganti Ke Mode Public')
+                reply('හරි දැන් public')
             }
             break
             case 'self': {
                 if (!m.key.fromMe && !isCreator) throw mess.owner
                 alpha.public = false
-                reply('Sukses Ganti Ke Mode Self')
+                reply('හරි දැන් privet')
             }
             break
             case 'ping': case 'botstatus': case 'statusbot': {
@@ -372,7 +372,7 @@ break
                 }
             }
             break
-            case 'mp3': case 'ytmp3':
+            case 'mp3': case 'yt':
                 if (!q) return reply(lang.wrongFormat(prefix))
                 if (!isUrl(q)) return reply(lang.wrongFormat(prefix))
                 if (!q.includes('youtu.be') && !q.includes('youtube.com')) return reply(lang.wrongFormat(prefix))
@@ -383,7 +383,7 @@ break
                     txt += `*🎞️ Type :* ${data.medias[7].extension}\n`
                     txt += `*💾 Size :* ${data.medias[7].formattedSize}\n`
                     txt += `*📚 Url Source :* ${data.url}\n\n`
-                    txt += `*Mohon tunggu sebentar kak, sedang proses pengiriman...*`
+                    txt += `*පොඩ්ඩක් ඉන්න විනාඩියෙන් සින්දුව දෙන්නං. සින්දුව Download කරල phone එකේ ඇප් එකකිනඅ අහන්න WhatsApp වලින් බෑ.*`
                     sendFileFromUrl(m.chat, data.thumbnail, txt, m)
                     alpha.sendMessage(m.chat, {audio: {url: data.medias[7].url}})
                 })
