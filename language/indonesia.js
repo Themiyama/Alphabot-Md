@@ -44,7 +44,7 @@ exports.groupOnly = () => {
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅මේක admin command එකක්`
 }
 
 exports.nhFalse = () => {
@@ -103,7 +103,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Search 」 
-├ ${prefix}ytsearch [query]
+├ ${prefix}ytsearch [query] 
 ├ ${prefix}film [query]
 ├ ${prefix}wallpaper [query]
 ├ ${prefix}wikimedia [query]
@@ -280,7 +280,7 @@ exports.welcome = () =>{
 ╰ අපේ නිති පිලිපදින්න ~`
 }
 exports.leave = () =>{
-	return`යන උන් යන්න බායි >.<
+	return`යන උන් ගියදෙන් >.<
 Goodbye`
 }
 exports.source = () =>{
@@ -294,11 +294,7 @@ exports.tos = (ownernomer) => {
     return `
 *── 「 DONATE 」 ──*
 
-Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-🏧 0887435047326 (OVO/Dana/GoPay)
-
-Berapapun donasi kalian akan sangat berarti 👍
+made by ƬӇЄMƖƳƢ MƛƊƲƧӇƛƝƘƛ
 
 Arigatou!
 
